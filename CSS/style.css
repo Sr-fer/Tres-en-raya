@@ -51,6 +51,7 @@ article:nth-child(2) {
 
 #fichas{
     margin-left: 5%;
+    font-family: arial, verdana, sans-serif;
 }
 
 #tablero :hover{
@@ -63,10 +64,12 @@ article:nth-child(2) {
 
 #jugadora{
     margin-right: 8%;
+    text-decoration: underline;
 }
 
 #jugadorb{
     margin-left: 10%;
+    text-decoration: underline;
 }
 
 #table {
@@ -75,7 +78,10 @@ article:nth-child(2) {
 }
 
 #copyright{
-    margin-left: 5%;    
+    margin-left: 5%;
+    font-family: "Times New Roman", serif; font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline;
 }
 
 
