@@ -84,3 +84,11 @@ article:nth-child(2) {
     text-decoration: underline;
 }
 
+#cuadro1{
+    background-image: url("istockphoto-1193523732-612x612.jpg");
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10px bottom;
+}
