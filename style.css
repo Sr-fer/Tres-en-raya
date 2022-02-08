@@ -40,13 +40,18 @@ article:nth-child(2) {
     margin-left: 20%;
 }
 
+#definir-tablero{
+    display: grid;
+    flex: 1;
+    border-width: 1px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+}
 
-#tablero div {
+#tablero .box {
     background: rgb(105, 68, 68);
-	width: 32.93%;
-	margin: 1px;
-	cursor: pointer;
-	transition: all 300ms ease;
+	width: 100%;
 }
 
 #fichas{
@@ -54,7 +59,7 @@ article:nth-child(2) {
     font-family: arial, verdana, sans-serif;
 }
 
-#tablero :hover{
+#tablero .box:hover{
 	background: gray;
 }
 
