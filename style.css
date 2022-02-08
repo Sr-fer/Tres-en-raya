@@ -92,3 +92,11 @@ article:nth-child(2) {
     background-attachment: scroll;
     background-position: 10px bottom;
 }
+
+#cuadro2{
+    background-image: url("Tres-en-raya.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 62% center;
+}
