@@ -84,3 +84,28 @@ article:nth-child(2) {
     text-decoration: underline;
 }
 
+#cuadro1{
+    background-image: url("istockphoto-1193523732-612x612.jpg");
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10px bottom;
+}
+
+#cuadro2{
+    background-image: url("Tres-en-raya.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 62% center;
+}
+
+#cuadro3{
+    background-image: url("1590140413198.jpg");
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+}
