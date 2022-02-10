@@ -31,16 +31,11 @@ article:nth-child(2) {
 
 
 #tablero{
-	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	width: 65%;
 	height: 65%;
 	margin: 10px;
     margin-left: 20%;
-}
-
-#definir-tablero{
     display: grid;
     flex: 1;
     border-width: 1px;
@@ -49,7 +44,8 @@ article:nth-child(2) {
     gap: 1%;
 }
 
-#tablero .box {
+
+#tablero div {
     background: rgb(105, 68, 68);
 	width: 100%;
 }
@@ -59,7 +55,7 @@ article:nth-child(2) {
     font-family: arial, verdana, sans-serif;
 }
 
-#tablero .box:hover{
+#tablero div:hover{
 	background: gray;
 }
 
