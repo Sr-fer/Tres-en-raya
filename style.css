@@ -60,7 +60,12 @@ article:nth-child(2) {
 }
 
 #jugadores{
+    margin-top: 5%;
     margin-left: 5%;
+}
+
+#fichas{
+    margin-top: 5%;
 }
 
 #jugadora{
